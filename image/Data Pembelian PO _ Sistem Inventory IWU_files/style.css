@@ -1,0 +1,805 @@
+body{
+	
+	padding:0;
+	margin:0;
+}
+
+.head{
+	width:100%;
+	height:50px;
+	position:fixed;
+	background:#a1ddf3;
+	/*background:-webkit-linear-gradient(top, blue,  #a1ddf3);
+	background:-moz-linear-gradient(top, blue,  #a1ddf3);
+	background:-ms-linear-gradient(top, blue,  #a1ddf3);
+	background:-o-linear-gradient(top, blue,  #a1ddf3);
+	background:linear-gradient(top, blue,  #a1ddf3);*/
+}
+
+#header1{
+	width:300px;
+	height:50px;
+	float:left;
+}
+#header2{
+	width:250px;
+	height:50px;
+	float:right;
+}
+#header2 img{
+	padding-top:10px;
+	margin:0 20px 0 0;
+}
+
+#header2 li { float:left; position:relative; margin-left:7px; width:auto; display: block;margin-top:-15px;}
+
+#header2 span {
+    background-image:url('../image/balon2.png');
+	background-repeat:no-repeat;
+    width: 110px;
+    height: 35px;
+    position: absolute;
+    bottom: 10px;
+    left: -80px;
+    text-align: left;
+    text-decoration:none;
+    padding: 15px;
+    display: none;
+    line-height:110%;
+    color:#FFFFFF;
+    cursor:default;
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 11px;
+	text-align:center;
+	margin-bottom:-25px;
+}
+
+
+#flat{
+	width:500px;
+	height:30px;
+	background:#bd40f7;
+	border:1px solid orange;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius:0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-o-border-radius:0 5px 5px 0;
+	color:black;
+	text-align:right;
+	padding-top:5px;
+}
+
+#flat2{
+	width:400px;
+	height:25px;
+	margin-top:10px;
+	background:#595cf3;
+	border:1px solid orange;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius:0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-o-border-radius:0 5px 5px 0;
+	color:black;
+	text-align:right;
+	font-size:15px;
+	padding-top:5px;
+}
+
+#flat3{
+	width:200px;
+	height:15px;
+	margin-top:10px;
+	background:red;
+	border:1px solid orange;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius:0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-o-border-radius:0 5px 5px 0;
+	clear:both;
+}
+
+#flat4{
+	width:100px;
+	height:10px;
+	margin-top:10px;
+	background:orange;
+	border:1px solid grey;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius:0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-o-border-radius:0 5px 5px 0;
+	clear:both;
+}
+
+#flat5{
+	width:300px;
+	height:20px;
+	margin-top:10px;
+	background:blue;
+	border:1px solid grey;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius:0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-o-border-radius:0 5px 5px 0;
+}
+
+#flat6{
+	width:50px;
+	height:5px;
+	margin-top:10px;
+	background:#00FF00;
+	border:1px solid #d6ccdf;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius:0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-o-border-radius:0 5px 5px 0;
+	clear:both;
+}
+
+
+/*Form Login ------------------------- */
+#title_login{
+	width:200px;
+	height:37px;
+	margin:auto;
+}
+
+#title_login span {
+   background-image:url('../image/klik.png');
+	background-repeat:no-repeat;
+    width: 200px;
+    height: 120px;
+    position: absolute;
+	
+    text-align: left;
+    text-decoration:none;
+    padding: 15px;
+    display: none;
+    line-height:110%;
+    cursor:default;
+
+	text-align:center;
+	margin:-30px 3px 455px 0;
+
+
+}
+
+#conten_login{
+	width:250px;
+	height:400px;
+	margin:auto;
+	border:1px solid black;
+	border:1px solid blue;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	background:#F8F8FF;
+	-webkit-box-shadow: 0 0 3px #222;
+	-moz-box-shadow: 0 0 3px #222;
+	box-shadow: 0 0 3px #222;
+	display:none;
+}
+
+.input_L{
+	width:200px;
+	height:30px;
+	text-align:center;
+	font-size:18;
+	font-family:Calibri;
+	margin:20px 0 0 0;
+	border:1px solid purple;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+}
+
+.select_L{
+	width:200px;
+	height:30px;
+	text-align:center;
+	font-size:18;
+	font-family:Comic san;
+	margin:20px 0 0 0;
+	border:1px solid blue;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+}
+
+/*--FOOTER------------------------------*/
+#footer{
+	font-size:15px;
+	text-align:center;
+	color:#d6ccdf;
+}
+
+
+#page-loader{
+position:fixed !important;
+top:0;
+right:0;
+bottom:0;
+left:0;
+z-index:9999;
+background:blue url('../image/background.jpg') no-repeat 50% 50%;
+font:0/0;
+text-shadow:none;
+padding:1em 1.2em;
+display:none;opacity:.7
+}
+
+/*-----------FORM MENU----------*/
+#menu{
+	width:600px;
+	height:150px;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+	margin:auto;
+}
+
+#title_menu{
+	width:300px;
+	height:35px;
+	margin:10px auto;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border:1px solid blue;
+	padding-top:10px;
+	text-align:center;
+	vertical-align:center;
+	font-size:20px;
+	background:blue;
+	color:white;
+	
+}
+
+#title_menu a{
+	color:white;
+	list-style:none;
+	text-decoration:none;
+}
+#pil_menu{
+	width:100px;
+	height:100px;
+	margin:auto 10px;
+	float:left;
+	background:-moz-linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	background:-webkit-linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	background:-ms-linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	background:-o-linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	background:linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border:1px solid purple;
+	text-align:center;
+	box-shadow:5px 5px blue;
+}
+
+#pil_menu:hover{
+	background:orange;
+	background:linear-gradient(top, white, #d6ccdf, white);
+	background:-moz-linear-gradient(top, white, #d6ccdf, white);
+	background:-webkit-linear-gradient(top, white, #d6ccdf, white);
+	background:-o-linear-gradient(top, white, #d6ccdf, white);
+	border:1px solid grey;
+	box-shadow:3px 3px grey;
+}
+
+
+/* ----- Permintaan Pembelian Barang ---- */
+#menu_pp{
+	width:900px;
+	height:120px;
+	margin:20px auto;
+}
+
+
+/*------- Pembelian Barang ----------- */
+#pil_menum{
+	width:100px;
+	height:100px;
+	margin:auto 10px;
+	float:left;
+	background:-moz-linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	background:-webkit-linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	background:-ms-linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	background:-o-linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	background:linear-gradient(top, #d6ccdf, white, #d6ccdf);
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border:1px solid purple;
+	text-align:center;
+	box-shadow:5px 5px blue;
+}
+
+#pil_menum:hover{
+	background:orange;
+	background:linear-gradient(top, white, #d6ccdf, white);
+	background:-moz-linear-gradient(top, white, #d6ccdf, white);
+	background:-webkit-linear-gradient(top, white, #d6ccdf, white);
+	background:-o-linear-gradient(top, white, #d6ccdf, white);
+	border:1px solid grey;
+	box-shadow:3px 3px grey;
+}
+
+#menu_master{
+	width:600px;
+	height:300px;
+	background-image:url('../image/masterbagan.png');
+	background-repeat:no-repeat;
+	display:none;
+	margin:-25px 0 0 110px;
+	float:left;
+}
+
+#pil_menu_mstr{
+	width:550px;
+	height:200px;
+	margin:70px 0 0 40px;
+
+}
+#pil_menu_mstr td{
+	border:1px solid red;
+	height:50px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	}
+#pil_menu_mstr td:hover{
+	background:white;
+}
+
+#badan_program{
+	width:1300px;
+	min-height:700px;
+	margin:auto;
+}
+
+#bada_program_kiri{
+	width:250px;
+	min-height:500px;
+	border:1px solid #D4D4D1;
+	float:left;
+}
+
+#bada_program_kanan{
+	width:1040px;
+	min-height:700px;
+	border:1px solid #D4D4D1;
+	float:right;
+}
+
+#bada_program_kanan hr{
+	margin-top:18px;
+	background-color:#a1ddf3;
+	border:1px solid #a1ddf3;
+	height:3px;
+}
+
+#title_program{
+	width:420px;
+	height:40px;
+	border-right:1px solid #a1ddf3;
+	border-top:1px solid #a1ddf3;
+	border-bottom:1px solid #a1ddf3;
+	border-radius:0 25px 25px 0;
+	padding-top:3px;
+	padding-left:5px;
+}
+
+#title_program h2{
+	margin:2px 0 0 0;
+	color:purple;
+}
+
+/*----------- Permintaan Pembelian PPB ----- */
+#prog_ppb{
+	width:1000px;
+	height:auto;
+	clear:both;
+	margin:auto;
+}
+
+#kotak_eksekusi{
+	width:1000px;
+	height:100px;
+}
+
+#tomb_eks{
+	width:80px;
+	height:35px;
+	float:left;
+	margin-right:10px;
+	box-shadow:3px 3px #dbd8d8;
+	border:1px solid #dbd8d8;
+	background:#e9e8e8;
+	background:-moz-linear-gradient(top, #e9e8e8, white);
+	background:-webkit-linear-gradient(top, #e9e8e8, white);
+	background:-o-linear-gradient(top, #e9e8e8, white);
+	background:linear-gradient(top, #e9e8e8, white);
+}
+
+#tomb_eks:hover{
+	background:#e9e8e8;
+	background:-moz-linear-gradient(top, white, #e9e8e8);
+	background:-webkit-linear-gradient(top, white, #e9e8e8, );
+	background:-o-linear-gradient(top, white, #e9e8e8, );
+	background:linear-gradient(top, white, #e9e8e8, );
+}
+
+
+
+/*-----DATA_PERMINTAAN.PHP-----*/
+#bgn_ppb{
+	width:1000px;
+	min-height:400px;
+}
+
+#prog_ppb th{
+	height:30px;
+	background:orange;
+	background:linear-gradient(top, #a1ddf3, white);
+	background:-moz-linear-gradient(top, #a1ddf3, white);
+	border-color:grey;
+	color:#a8469b;
+}
+
+#prog_ppb td{
+	color:#847070;
+}
+
+/* ------------ BUKA PEMBELIAN PO -------- */
+
+#progpo_kiri{
+	width:300px;
+	min-height:185px;
+	float:left;
+	margin-right:50px;
+}
+
+
+#progpo_kanan{
+	width:300px;
+	min-height:185px;
+	float:left;
+	margin-right:3px;
+}
+/*---------- data_pembelianpo.php ---------- */
+#bada_program_kananpo{
+	width:1300px;
+	min-height:700px;
+	border:1px solid #D4D4D1;
+	margin:auto;
+}
+
+#bada_program_kananpo hr{
+	margin-top:18px;
+	background-color:#a1ddf3;
+	border:1px solid #a1ddf3;
+	height:3px;
+}
+
+#bgn_po{
+	width:1250px;
+	min-height:400px;
+}
+
+#prog_po{
+	width:1250px;
+	height:auto;
+	clear:both;
+	margin:auto;
+}
+
+#prog_po th{
+	height:30px;
+	background:orange;
+	background:linear-gradient(top, #a1ddf3, white);
+	background:-moz-linear-gradient(top, #a1ddf3, white);
+	border-color:grey;
+	color:#a8469b;
+}
+
+#prog_po td{
+	color:#847070;
+}
+
+/* ---------input_master_barang.php-------- */
+#button_mst{
+	width:200px;
+	height:30px;
+	background:grey;
+	border-radius:0 90px 0 0;
+	-moz-border-radius:0 90px 0 0;
+	float:left;
+	
+}
+
+/*--------MESIN PENCARI------ */
+#search-box {
+	width: 300px;
+	margin: 0;
+	float:right;
+	margin:0 20px 0 0;
+}
+
+#search-form 
+{
+	height: 30px;
+	border: 1px solid #999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	overflow: hidden;
+}
+#search-text 
+{
+	font-size: 14px;
+	color: #ddd;
+	border-width: 0;
+	background: transparent;
+	border:1px solid #a1ddf3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+}
+
+#search-box input[type="text"]
+{
+	width: 210px;
+	padding: 9px 0 9px 1em;
+	color: #333;
+	outline: none;
+	margin-right:-7px;
+}
+
+#search-button {
+	top: 0;
+	right: 0;
+	height: 37px;
+	width: 80px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+	border-width: 0;
+	background-color: #a1ddf3;
+	-webkit-border-radius: 0px 5px 5px 0px;
+	-moz-border-radius: 0px 5px 5px 0px;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+}
+
+/* ------------ back ---------- */
+
+#kmbl{
+	width:30px;
+	height:30px;
+	float:left;
+	margin:3 0 0 20px;
+}
+
+
+
+
+/* ------------INPUT TYPE -----*/
+.input1{
+	width:150px;
+	height:30px;
+	border:1px solid #a1ddf3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.input1:hover{
+	border:1px solid blue;
+	opacity:0.5;
+	background:#FAFAF7;
+}
+
+.input2{
+	width:150px;
+	height:30px;
+	background:#FAFAF7;
+	margin-bottom:5px;
+	border:1px solid #a1ddf3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.input3{
+	width:120px;
+	height:30px;
+	background:#FAFAF7;
+	margin-bottom:5px;
+	border:1px solid #a1ddf3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.inputid{
+	width:40px;
+	height:30px;
+	background:#FAFAF7;
+	margin-bottom:5px;
+	border:1px solid #a1ddf3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.select1{
+	width:150px;
+	height:30px;
+	border:1px solid #a1ddf3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	font-size:15px;
+}
+
+.select1:hover{
+	border:1px solid blue;
+	opacity:0.5;
+	background:#FAFAF7;
+}
+
+.textarea1{
+	width:595px;
+	height:40px;
+	border:1px solid #a1ddf3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding-top:2px;
+}
+
+.textarea1:hover{
+	border:1px solid blue;
+	opacity:0.5;
+	background:#FAFAF7;
+}
+
+.textarea2{
+	width:300px;
+	height:100px;
+	border:1px solid #a1ddf3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding-top:2px;
+	margin-top:10px;
+}
+
+.textarea2:hover{
+	border:1px solid blue;
+	opacity:0.5;
+	background:#FAFAF7;
+}
+.table1{
+	border-top:1px solid #D4D4D1;
+	border-bottom:1px solid #D4D4D1;
+	border-collapse:collapse;
+	margin-top:10px;
+	clear:both;
+}
+
+.table1 th{
+	height:30px;
+}
+
+.table td{
+	border-right:1px solid #D4D4D1;
+}
+
+/*---------WAKTU----------*/
+#tanggal{
+	width:150px;
+	height:30px;
+	color:#a1aaf6;
+}
+
+
+/*---- MUENCETAK----*/
+#cetak2{
+	width:1100px;
+	height:auto;
+	margin:auto;
+}
+#progpo_kiri2{
+	width:300px;
+	min-height:185px;
+	float:left;
+	margin-right:50px;
+}
+#progpo_kanan2{
+	width:300px;
+	min-height:185px;
+	float:right;
+	margin-right:3px;
+}
+
+#print{
+	display:none;
+}
+
+.inputc{
+	width:150px;
+	height:25px;
+	border:1px solid white;
+}
+
+.input3c{
+	width:120px;
+	height:25px;
+	margin-bottom:5px;
+	border:1px solid white;
+}
+
+.input2c{
+	width:150px;
+	height:25px;
+	border:1px solid white;
+}
+
+.textarea2c{
+	width:400px;
+	height:200px;
+	border:1px solid grey;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding-top:2px;
+	margin-top:10px;
+}
+
+
+
+/* ----------- TABLE OUTPUT ------------ */
+
+.fonttd{
+	font-size:13px;
+	background:#E0FFFF;
+	font-family:calibri;
+}
+
+.fonttd:hover{
+	background:white;
+	
+}
+
+
+
+
+
+/* ------------ INPUT TYPE SUBMIT -------- */
+.submitt{
+	width:80px;
+	height:35px;
+	background:transparent;
+	font-weight:bold;
+}
